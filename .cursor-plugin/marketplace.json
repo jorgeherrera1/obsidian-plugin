@@ -1,0 +1,17 @@
+{
+  "name": "jorgeherrera1",
+  "owner": {
+    "name": "Jorge"
+  },
+  "metadata": {
+    "description": "Plugins for running an Antinet Zettelkasten in Obsidian",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "antinet",
+      "source": "antinet",
+      "description": "Skills for running an Antinet Zettelkasten in the PERSONAL Obsidian vault"
+    }
+  ]
+}
