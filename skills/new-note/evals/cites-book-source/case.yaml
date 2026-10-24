@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: cites-book-source
+expected_outcome: |
+  Exactly one new note is created in --Inbox--, named with a 12-digit timestamp. Its frontmatter follows the Main Note template with id, title, aliases and date filled in. The body is in Spanish, keeps to what the user said, and cites the book as a footnote linking to the existing Books note. Nothing else in the vault is created, moved or renamed.
+context:
+  scaffold_script: place-files.sh

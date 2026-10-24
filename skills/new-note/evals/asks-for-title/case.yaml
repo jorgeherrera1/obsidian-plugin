@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: asks-for-title
+expected_outcome: |
+  The user gave no title or idea. The response asks for the note's title (or its idea) and creates no file.
+context:
+  scaffold_script: place-files.sh
