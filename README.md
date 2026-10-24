@@ -1,4 +1,4 @@
-# antinet
+# zettelkasten
 
 A Claude Code and Cursor plugin with skills for running an Antinet-style Zettelkasten in an Obsidian vault.
 
@@ -14,14 +14,14 @@ Requires Python 3 and a vault with the Unique Note Creator core plugin set up.
 
 ```sh
 claude plugin marketplace add jorgeherrera1/obsidian-plugin
-claude plugin install antinet@jorgeherrera1
+claude plugin install zettelkasten@jorgeherrera1
 ```
 
 ### Cursor
 
-Import this repository as a team marketplace (Dashboard → Settings → Plugins), then install `antinet` from it.
+Import this repository as a team marketplace (Dashboard → Settings → Plugins), then install `zettelkasten` from it.
 
-To try it without a marketplace, copy `plugins/antinet` to `~/.cursor/plugins/local/antinet` and reload the window.
+To try it without a marketplace, copy `plugins/zettelkasten` to `~/.cursor/plugins/local/zettelkasten` and reload the window.
 
 ## Use
 
@@ -29,9 +29,9 @@ Open your vault and ask: "Create a note titled … for my zettelkasten".
 
 ## Develop
 
-The plugin lives in `plugins/antinet`. Load it from a clone without installing:
+The plugin lives in `plugins/zettelkasten`. Load it from a clone without installing:
 
 ```sh
 cd /path/to/your/vault
-claude --plugin-dir /path/to/obsidian-plugin/plugins/antinet
+claude --plugin-dir /path/to/obsidian-plugin/plugins/zettelkasten
 ```

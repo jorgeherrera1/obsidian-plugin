@@ -6,8 +6,8 @@
   },
   "plugins": [
     {
-      "name": "antinet",
-      "source": "./plugins/antinet",
+      "name": "zettelkasten",
+      "source": "./plugins/zettelkasten",
       "description": "Skills for running an Antinet Zettelkasten in the PERSONAL Obsidian vault"
     }
   ]
