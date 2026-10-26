@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: comments-branches-under-card
+expected_outcome: |
+  The user already decided it branches under the Agents card. The note is renamed to 600.202610250910.md in the 600 cabinet with its id updated. The Agents note gets a list at the bottom of its text, before its footnote, holding the new entry. The Agents text and the Agentic AI hub are otherwise unchanged.
+context:
+  scaffold_script: place-files.sh

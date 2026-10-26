@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: continues-after-card
+expected_outcome: |
+  The user already decided. The note is renamed to 000.202506032303.md, moved into the 000 cabinet, its id updated, and its entry inserted in the APIs hub right after 'El usuario de un API es un developer' (not at the end). The journal link to the old ID now points to the new one. Nothing else changes.
+context:
+  scaffold_script: place-files.sh
