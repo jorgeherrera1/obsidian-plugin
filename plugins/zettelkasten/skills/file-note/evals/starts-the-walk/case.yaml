@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: starts-the-walk
+expected_outcome: |
+  The user gave nothing but the request. The skill picks the only zettel in the Inbox (REST vs RPC), opens a hub from the index and says why, quotes the user's own words from at least one card, reacts to how that card relates to the new note, and ends with one question. It does not say where the note goes, offers no menu of spots, and touches no file.
+context:
+  scaffold_script: place-files.sh

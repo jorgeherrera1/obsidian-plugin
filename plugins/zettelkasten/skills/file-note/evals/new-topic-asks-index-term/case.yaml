@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: new-topic-asks-index-term
+expected_outcome: |
+  The note needs an index entry, and the index term is the user's to choose. The skill asks the user what term they'd look for (it may think about candidates with them) and waits. It does not pick a term, writes nothing to --INDEX--.md, and does not move the note before the term is settled.
+context:
+  scaffold_script: place-files.sh

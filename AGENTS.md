@@ -32,7 +32,7 @@ Scott P. Scheper's *Antinet Zettelkasten* (2022) reconstructs Niklas Luhmann's p
 ## What this means for agents
 
 - **The user does the thinking.** Understanding comes from writing in your own words and deciding where a note belongs. Agents never write ideas for the user or decide where a note goes. They take over the clerical work around those steps, such as IDs, templates and moving files.
-- **One step per skill.** Capture, filing, linking, indexing and writing are separate stages, with the user's review between them. A skill does one stage and stops.
+- **One step per skill.** Capture, filing, indexing and writing are separate stages, with the user's review between them. A skill does one stage and stops. Linking is part of filing: links to related notes are written as the note is filed, while the connections are fresh.
 - **No orphans.** Every note ends up connected to an existing one. Placement and links matter more than tags.
 - **Link by ID, not by title.** The ID is the note's address; titles change.
 - **Keep the index sparse.** It lists entry points, not every mention.
